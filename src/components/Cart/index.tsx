@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 import { CoffeeShopContext } from '../../context/CoffeeShopContext'
-import { ConfirmButton, Title } from '../../pages/Checkout/styles'
+import { ConfirmButton } from '../../pages/Checkout/styles'
 import { formatCartPrice } from '../../utils/formatCartPrice'
 import { CartItem } from '../CartItem'
 import { Amount, CartInfo, Container, EmptyCart, Total } from './styles'
